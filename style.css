@@ -8,7 +8,7 @@
     content: "";
     background-color: black;
     position: absolute;
-    height: 15%;
+    height: 13%;
     width: 100%;
     top: 0px;
     left: 0px ;
@@ -34,7 +34,7 @@ height: 80px;
     font-family: 'Baloo Bhai';font-size: 22px;
     list-style: none;
     display: flex;
-    padding: 30px;
+    padding: 2px 20px;
     font-size: 1.8rem;
     
     list-style: none;
@@ -49,8 +49,8 @@ height: 80px;
 
 #navbar ul a{
     color: white ;
-    border-radius: 20px;
-    padding: 2px 11px;
+    border-radius: 10px;
+    padding: 9px 11px;
    text-decoration: none;
     font-size: 1.8rem;
 }
@@ -59,12 +59,14 @@ height: 80px;
     background-color: gray;
     color: white;
     border-radius: 10px;
+    font-size: 1.9rem;
 }
 /* styling home section  */
 #home{
     display: flex;
     flex-direction: column;
-    padding: 2px 100px;
+    padding: 44px 100px;
+    top: 0px;
     top:0px;
     height: 293px;
     font-size: 1.8rem;
@@ -100,12 +102,56 @@ height: 80px;
     text-align: center;
 }
 
+/* styling services section */
+#services-conatiner{
+    margin-top: 50px;
+}
+
+#services{
+    margin: 50px;
+    display: flex;
+    
+}
+
+#services .box{
+    background-color:#fde8ecad;
+    border: 2px solid black;
+    border-radius:10px ;
+    padding: 10px;
+    margin: 2px 25px;
+    margin-bottom: 20px;
+    justify-content:center ; 
+    align-items: center;
+    text-align: center;
+
+}
+
+#services .box img{
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+
+}
+#services .box p{
+    font-family: 'Bree Serif', serif;
+  }
+
+  .box:hover{
+    transform: translate(20px);
+    box-shadow: 8px 8px 12px rgb(99, 99, 250);
+   
+  }
+  .box{
+    transition: all 0.5s ease-in-out;
+    
+  }
+
 
 /* 
 Utility class */
 
 .h-primary{
-
+    font-family: 'Balsamiq Sans', cursive;
     font-size: 3.8rem;
     text-align: center;
 }
@@ -113,4 +159,10 @@ Utility class */
     justify-content: center;
     text-align: center;
     align-items: center;
+}
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 2.9rem;
+    padding: 12px;
 }
