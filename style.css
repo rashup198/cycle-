@@ -8,12 +8,12 @@
     content: "";
     background-color: black;
     position: absolute;
-    height: 100%;
+    height: 15%;
     width: 100%;
     top: 0px;
     left: 0px ;
     z-index: -1;
-    opacity: 0.8;
+    opacity: 0.9;
 
 }
 
@@ -30,7 +30,15 @@ height: 80px;
     /* margin: 24px; */
     display: flex;
 }
-
+#navbar ul li{
+    font-family: 'Baloo Bhai';font-size: 22px;
+    list-style: none;
+    display: flex;
+    padding: 30px;
+    font-size: 1.8rem;
+    
+    list-style: none;
+}
 #navbar li{
     flex-direction: row;
     /* margin: 12px; */
@@ -51,4 +59,58 @@ height: 80px;
     background-color: gray;
     color: white;
     border-radius: 10px;
+}
+/* styling home section  */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 2px 100px;
+    top:0px;
+    height: 293px;
+    font-size: 1.8rem;
+    text-align: center;
+    justify-content: center;
+}
+
+#home::before{
+    content: "";
+    background: url(img/pexels-haydan-assoendawy-2883462.jpg) no-repeat center center/cover;
+    position: absolute; 
+    top: 0px;
+    left: 0px;
+    /* margin-top: 300px; */
+    /* margin-left: 0px; */ 
+    height: 60%;
+    width: 100%;   
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#home h1{
+    color: black;
+    font-size: 3.8rem;
+    font-family: 'Balsamiq Sans', cursive;
+    text-align:center ;
+
+}
+#home p{
+    font-size: 1.8rem;
+    font-family:'Balsamiq Sans', cursive; 
+    color: black;
+    text-align: center;
+}
+
+
+/* 
+Utility class */
+
+.h-primary{
+
+    font-size: 3.8rem;
+    text-align: center;
+}
+.center{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
