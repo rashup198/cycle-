@@ -1,3 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
 /* styling navbar */
 
 #navbar {
@@ -59,7 +69,7 @@ height: 80px;
     background-color: gray;
     color: white;
     border-radius: 10px;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
 }
 /* styling home section  */
 #home{
