@@ -248,10 +248,33 @@ height: 80px;
     
  }
 
+ /* styling our socials section */
+#social-sections{
+  border: 2px solid white;
+}
+
+.parent-social{
+   margin-left: 610px;
+}
+.socials{
+  display: inline-block;
+  align-items: center;
+  
+
+ }
+ .socials img{
+   height: 55px;
+   padding: 12px;
+ }
+
+
+
+
 /* styling footer */
 
 .footer-parent{
     background-color: #000000;
+    border: 2px solid white;
 }
 footer{
     background-color: black;
