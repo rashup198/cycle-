@@ -250,6 +250,8 @@ height: 80px;
 
  /* styling our socials section */
 #social-sections{
+  background: url(img/pexels-laker-6156531.jpg) no-repeat center center/cover;
+  opacity: 0.8;
   /* border: 2px solid white; */
 }
 
@@ -273,12 +275,16 @@ height: 80px;
 /* styling footer */
 
 .footer-parent{
-  
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
     background-color: #000000;
+    object-fit: cover;
    
 }
 footer{
-  border: 2px solid white;
+ 
     background-color: black;
     color: white;
   }
@@ -291,6 +297,7 @@ Utility class */
     font-family: 'Balsamiq Sans', cursive;
     font-size: 3.8rem;
     text-align: center;
+    color: #000000;
 }
 .center{
     justify-content: center;
