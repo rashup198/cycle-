@@ -250,7 +250,7 @@ height: 80px;
 
  /* styling our socials section */
 #social-sections{
-  border: 2px solid white;
+  /* border: 2px solid white; */
 }
 
 .parent-social{
@@ -273,10 +273,12 @@ height: 80px;
 /* styling footer */
 
 .footer-parent{
+  
     background-color: #000000;
-    border: 2px solid white;
+   
 }
 footer{
+  border: 2px solid white;
     background-color: black;
     color: white;
   }
