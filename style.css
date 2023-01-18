@@ -193,7 +193,7 @@ height: 80px;
 
   .coustomer-item:hover{
 
-    transform: rotate(360deg);
+    transform: scale(1.3);
   }
   /* styling contact us section */
 
