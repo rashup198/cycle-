@@ -113,6 +113,10 @@ height: 80px;
 }
 
 /* styling services section */
+
+#services-conatiner{
+    margin-top: 50px;
+}
 #services-conatiner{
     margin-top: 50px;
 }
